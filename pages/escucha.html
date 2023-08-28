@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escucha tus cuentos favoritos las veces que quieras">
+    <meta name="keywords" content="Tia Botas, Escuchar ,Cuentos"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Escucha Tus Cuentos</title>
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" alt="imgLogo la tia botas">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/juega.html">juega</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/escucha.html">escucha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/dona.html">dona</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/comparte.html">comparte</a>
+                   </li>
+               </ul>
+          </div>
+      </nav>
+    </header>
+    <main>
+        <h1>ESCUCHA</h1>
+        <p>Si tu selecion esta ok dale play y escucha los relatos. Tambien puedes cambiar tu cuento cuando quieras, solo pincha juega!!!
+        </p>
+        <div class="reproductor">
+            </button>
+                <audio id="audioEscucha" src="cuentos/" controls="controls"  preload="none">
+               </audio>
+                <img src="../img/Erizo_derecha.png" alt="erizo de mar" class="erizo">
+          <a href="../pages/juega.html">Jugar otra vez
+          </a>
+        </div>
+        <section class="botones">
+            <button class="dona">
+                <a href="https://www.paypal.com/es/webapps/mpp/charity" target=”_blank”>Dona
+                </a>
+            </button>
+            <button class="comparte">
+                <a href="https://www.instagram.com/tiabotas/" target=”_blank”>Comparte
+                </a>
+            </button>
+            <button class="juega">
+                <a href="../pages/juega.html">Juega
+                </a>
+            </button>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="../img/Burbujas.png" alt="burbujas" class="burbujas">
+        </div>
+        <div class="fondo">
+            <img src="../img/fondo_escritorio.png" alt="fondo_marino" class="fondo">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	<script src="../escucha.js"></script>
+</body>
+</html>
