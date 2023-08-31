@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Comparte con tus amigos y amigas</title>
 </head>
 <body>
@@ -50,13 +51,13 @@
         <div id="cuadroMensaje">
             <div class="ideas-container">
                 <span class="title">Hola! Ingresa tu nombre e idea</span>
-                <label for="">
+                <label>
                     <span class="label">Como te llamas?</span>
-                    <input type="text" name="usuario" placeholder=""></input>
+                    <input id="inputUsuario" type="text" name="usuario" placeholder=""></input>
                 </label>
                 <label>
                     <span class="label">Cual es tu nueva idea?</span>
-                    <input type="text" name="nuevaIdeaCuento" placeholder=""></input>
+                    <input id="inputIdea" type="text" name="nuevaIdeaCuento" placeholder=""></input>
                 </label>
                 <button id="buttonIdeas">Listo</button>
             </div>
